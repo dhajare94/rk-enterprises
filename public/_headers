@@ -1,0 +1,6 @@
+/hero.mp4
+  Cache-Control: public, max-age=86400
+  Content-Type: video/mp4
+
+/hero-poster.jpg
+  Cache-Control: public, max-age=86400

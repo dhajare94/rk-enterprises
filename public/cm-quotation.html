@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Construction Minutes — Quotation Template</title>
+<style>
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0a2f6b;
+    background: #e8e8e8;
+  }
+  .page {
+    width: 210mm;
+    min-height: 297mm;
+    background: #fff;
+    margin: 12px auto;
+    padding: 14mm 12mm 12mm;
+    position: relative;
+  }
+  .navy { color: #0a2f6b; }
+  .bg-navy { background: #0a2f6b; color: #fff; }
+  .muted { color: #445; }
+  .small { font-size: 10px; line-height: 1.35; }
+  .tiny { font-size: 9px; }
+  h1 { margin: 0; font-size: 22px; letter-spacing: 1px; }
+  h2 { margin: 0 0 8px; font-size: 16px; }
+  h3 { margin: 0 0 6px; font-size: 13px; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td {
+    border: 1px solid #0a2f6b;
+    padding: 5px 4px;
+    font-size: 9px;
+    vertical-align: top;
+  }
+  th { background: #0a2f6b; color: #fff; font-weight: 700; }
+  tr:nth-child(even) td { background: #f4f6f8; }
+  .box { border: 1px solid #0a2f6b; padding: 8px; }
+  .row { display: flex; gap: 10px; }
+  .col { flex: 1; }
+  .fill { border-bottom: 1px dotted #0a2f6b; min-height: 16px; display: inline-block; min-width: 120px; }
+  .footer {
+    position: absolute;
+    left: 12mm; right: 12mm; bottom: 8mm;
+    text-align: center;
+    font-size: 9px;
+    color: #667;
+  }
+  .logo-row { display: flex; gap: 12px; align-items: flex-start; }
+  .logo-row img { width: 72px; height: 72px; object-fit: contain; background: #fff; border-radius: 50%; }
+  .photo-grid { display: flex; gap: 10px; margin: 10px 0; }
+  .photo-grid figure { margin: 0; flex: 1; }
+  .photo-grid img { width: 100%; height: 140px; object-fit: cover; display: block; border: 1px solid #0a2f6b; }
+  .photo-grid figcaption { font-size: 10px; text-align: center; margin-top: 4px; font-weight: 700; }
+  .summary { width: 55%; margin-left: auto; margin-top: 10px; }
+  .summary td { font-size: 10px; }
+  .summary tr:last-child td { background: #0a2f6b; color: #fff; font-weight: 700; }
+  ul { margin: 6px 0 0 18px; padding: 0; }
+  li { margin: 4px 0; font-size: 11px; line-height: 1.4; }
+  .sig { min-height: 48px; border-bottom: 1px solid #0a2f6b; margin: 8px 0; }
+</style>
+</head>
+<body>
+
+<!-- PAGE 1: Letterhead + Quote meta + Bill To -->
+<section class="page" data-document-role="page" data-label="1 Letterhead & Quote Header">
+  <div class="bg-navy" style="padding:12px 14px; margin: -14mm -12mm 12px; display:flex; gap:14px; align-items:center;">
+    <img src="https://rk-enterprises.dhajare94.workers.dev/cm-logo.png" alt="Construction Minutes logo" width="78" height="78" style="background:#fff;border-radius:50%;padding:4px;" />
+    <div style="flex:1;color:#fff;">
+      <div style="font-size:22px;font-weight:800;letter-spacing:0.5px;">CONSTRUCTION MINUTES</div>
+      <div style="font-size:12px;opacity:0.95;">Construction Equipments Company</div>
+      <div class="tiny" style="margin-top:6px;line-height:1.45;opacity:0.95;">
+        Prop: Ganesh Machhindra Patayit<br/>
+        Flat No. C-1403, Green Scape Eternia, Sector 20, Plot No. 69/70,<br/>
+        Kalamboli, Navi Mumbai, Raigad, Maharashtra 410218<br/>
+        GSTIN: 27HCIPP1736H1ZA | State Code: 27 (Maharashtra)
+      </div>
+    </div>
+    <div class="tiny" style="color:#fff;min-width:160px;line-height:1.7;">
+      Email: __________________<br/>
+      Phone: __________________<br/>
+      WhatsApp: _______________
+    </div>
+  </div>
+
+  <h1 class="navy" style="text-align:center;margin:10px 0 12px;">QUOTATION</h1>
+
+  <div class="row">
+    <div class="col box">
+      <div class="small"><strong>Quotation No:</strong> CM/QTN/__________/2026</div>
+      <div class="small" style="margin-top:6px;"><strong>Date:</strong> ____ / ____ / ________</div>
+      <div class="small" style="margin-top:6px;"><strong>Validity:</strong> 15 Days</div>
+      <div class="small" style="margin-top:6px;"><strong>Place of Supply:</strong> ________________</div>
+    </div>
+    <div class="col box">
+      <h3>Bill To / Client</h3>
+      <div class="small">Client Name: ________________________________</div>
+      <div class="small" style="margin-top:6px;">Address: ____________________________________</div>
+      <div class="small" style="margin-top:6px;">____________________________________________</div>
+      <div class="small" style="margin-top:6px;">Client GSTIN: _______________________________</div>
+      <div class="small" style="margin-top:6px;">Contact: ____________________________________</div>
+    </div>
+  </div>
+
+  <p class="small muted" style="margin:14px 0 6px;">Fill service / product lines on the next page. Sample figures are editable examples only.</p>
+
+  <div class="box" style="margin-top:8px;">
+    <h3>Subject / Project</h3>
+    <div class="small">Project / Site: ______________________________________________________________</div>
+    <div class="small" style="margin-top:8px;">Reference / Enquiry No: _____________________________________________________</div>
+    <div class="small" style="margin-top:8px;">Prepared By: _______________________________________________________________</div>
+  </div>
+
+  <div class="photo-grid" style="margin-top:14px;">
+    <figure>
+      <img src="https://rk-enterprises.dhajare94.workers.dev/img-31637239.jpg" alt="RSP rental construction site" />
+      <figcaption>RSP Rental Support</figcaption>
+    </figure>
+    <figure>
+      <img src="https://rk-enterprises.dhajare94.workers.dev/img-33374624.jpg" alt="On-site equipment solutions" />
+      <figcaption>On-site Equipment Solutions</figcaption>
+    </figure>
+  </div>
+
+  <div class="footer">Construction Minutes | GSTIN 27HCIPP1736H1ZA | Kalamboli, Navi Mumbai — Page 1 of 4</div>
+</section>
+
+<!-- PAGE 2: Line items -->
+<section class="page" data-document-role="page" data-label="2 Line Items & Totals">
+  <div class="bg-navy" style="padding:8px 12px; margin:-14mm -12mm 12px;">
+    <strong>CONSTRUCTION MINUTES</strong>
+    <span style="float:right;" class="tiny">QUOTATION — Line Items | GSTIN 27HCIPP1736H1ZA</span>
+  </div>
+
+  <h2>Service / Product Details</h2>
+  <table>
+    <thead>
+      <tr>
+        <th style="width:4%">#</th>
+        <th style="width:28%">Service / Product Description</th>
+        <th style="width:9%">HSN/SAC</th>
+        <th style="width:6%">Qty</th>
+        <th style="width:7%">Unit</th>
+        <th style="width:11%">Rate (₹)</th>
+        <th style="width:7%">GST %</th>
+        <th style="width:12%">GST Amt (₹)</th>
+        <th style="width:16%">Amount (₹)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Tower Crane Rental (per month)</td>
+        <td>9987</td>
+        <td>1</td>
+        <td>Month</td>
+        <td>1,85,000</td>
+        <td>18%</td>
+        <td>33,300</td>
+        <td>2,18,300</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Scaffolding Set – Cuplock (per set)</td>
+        <td>7308</td>
+        <td>10</td>
+        <td>Set</td>
+        <td>4,500</td>
+        <td>18%</td>
+        <td>8,100</td>
+        <td>53,100</td>
+      </tr>
+      <tr><td>3</td><td>____________________</td><td>____</td><td>__</td><td>____</td><td>________</td><td>__</td><td>________</td><td>________</td></tr>
+      <tr><td>4</td><td>____________________</td><td>____</td><td>__</td><td>____</td><td>________</td><td>__</td><td>________</td><td>________</td></tr>
+      <tr><td>5</td><td>____________________</td><td>____</td><td>__</td><td>____</td><td>________</td><td>__</td><td>________</td><td>________</td></tr>
+      <tr><td>6</td><td>____________________</td><td>____</td><td>__</td><td>____</td><td>________</td><td>__</td><td>________</td><td>________</td></tr>
+      <tr><td>7</td><td>____________________</td><td>____</td><td>__</td><td>____</td><td>________</td><td>__</td><td>________</td><td>________</td></tr>
+      <tr><td>8</td><td>____________________</td><td>____</td><td>__</td><td>____</td><td>________</td><td>__</td><td>________</td><td>________</td></tr>
+      <tr><td>9</td><td>____________________</td><td>____</td><td>__</td><td>____</td><td>________</td><td>__</td><td>________</td><td>________</td></tr>
+      <tr><td>10</td><td>____________________</td><td>____</td><td>__</td><td>____</td><td>________</td><td>__</td><td>________</td><td>________</td></tr>
+    </tbody>
+  </table>
+
+  <table class="summary">
+    <tr><td>Subtotal (₹)</td><td style="text-align:right;">______________</td></tr>
+    <tr><td>CGST 9% (₹)</td><td style="text-align:right;">______________</td></tr>
+    <tr><td>SGST 9% (₹) / IGST 18% (₹)</td><td style="text-align:right;">______________</td></tr>
+    <tr><td>Round Off (₹)</td><td style="text-align:right;">______________</td></tr>
+    <tr><td>Grand Total (₹)</td><td style="text-align:right;">______________</td></tr>
+  </table>
+
+  <p class="small" style="margin-top:14px;"><strong>Amount in Words:</strong> ________________________________________________________________</p>
+  <p class="tiny muted">Notes: ________________________________________________________________________________</p>
+  <p class="tiny muted">This is a computer-generated quotation. Tax invoice will be raised separately under GST.</p>
+
+  <div class="footer">Construction Minutes | Editable Quotation Template — Page 2 of 4</div>
+</section>
+
+<!-- PAGE 3: Photos & company + payment -->
+<section class="page" data-document-role="page" data-label="3 Photos & Payment Terms">
+  <div class="bg-navy" style="padding:8px 12px; margin:-14mm -12mm 12px;">
+    <strong>CONSTRUCTION MINUTES</strong>
+    <span style="float:right;" class="tiny">Photos · Company · Payment Terms</span>
+  </div>
+
+  <h2>Our Work & Equipment</h2>
+  <p class="small">Construction Minutes supplies reliable construction equipment for rental and project support across Navi Mumbai and Maharashtra. Replace these photos anytime in Canva.</p>
+
+  <div class="photo-grid">
+    <figure>
+      <img src="https://rk-enterprises.dhajare94.workers.dev/img-31637239.jpg" alt="Construction site equipment" />
+      <figcaption>RSP Rental Support</figcaption>
+    </figure>
+    <figure>
+      <img src="https://rk-enterprises.dhajare94.workers.dev/img-33374624.jpg" alt="Building facade equipment" />
+      <figcaption>On-site Equipment Solutions</figcaption>
+    </figure>
+  </div>
+
+  <div class="box small" style="margin-bottom:12px;">
+    <strong>Trade Name:</strong> CONSTRUCTION MINUTES &nbsp;|&nbsp;
+    <strong>Proprietor:</strong> Ganesh Machhindra Patayit<br/>
+    <strong>GSTIN:</strong> 27HCIPP1736H1ZA &nbsp;|&nbsp;
+    <strong>Address:</strong> Flat No. C-1403, Green Scape Eternia, Kalamboli, Navi Mumbai, Maharashtra 410218
+  </div>
+
+  <div class="box">
+    <h2 class="bg-navy" style="margin:-8px -8px 8px; padding:8px;">A — Payment Terms</h2>
+    <ol style="margin:0 0 0 18px;padding:0;font-size:11px;line-height:1.55;">
+      <li>40% advance along with Purchase Order / Work Order.</li>
+      <li>40% on delivery / mobilisation at site.</li>
+      <li>20% within 7 days of invoice / completion of rental cycle.</li>
+      <li>Payments by NEFT / RTGS / UPI to account details provided on invoice. Cheques subject to realisation.</li>
+      <li>Delayed payments attract 1.5% interest per month or part thereof.</li>
+      <li>GST extra as applicable; GSTIN 27HCIPP1736H1ZA.</li>
+    </ol>
+  </div>
+
+  <div class="footer">Construction Minutes | Editable Quotation Template — Page 3 of 4</div>
+</section>
+
+<!-- PAGE 4: General terms + bank + acceptance -->
+<section class="page" data-document-role="page" data-label="4 Terms & Acceptance">
+  <div class="bg-navy" style="padding:8px 12px; margin:-14mm -12mm 12px;">
+    <strong>CONSTRUCTION MINUTES</strong>
+    <span style="float:right;" class="tiny">General Terms · Bank · Acceptance</span>
+  </div>
+
+  <div class="box" style="margin-bottom:12px;">
+    <h2 class="bg-navy" style="margin:-8px -8px 8px; padding:8px;">B — General Terms & Conditions</h2>
+    <ol style="margin:0 0 0 18px;padding:0;font-size:10.5px;line-height:1.5;">
+      <li>Quotation valid for 15 days from date of issue unless extended in writing.</li>
+      <li>Rates are ex-yard / as quoted; transportation, loading, unloading, operator and diesel extra unless stated.</li>
+      <li>Equipment is provided in working condition; client to ensure safe site access, foundation readiness, and statutory clearances.</li>
+      <li>Damage, loss, theft, or misuse during hire is chargeable to the client at repair or replacement cost.</li>
+      <li>Minimum hire period as stated; early return does not reduce billed period unless agreed in writing.</li>
+      <li>Force majeure / weather delays do not void mobilisation or standby charges if equipment is on site as scheduled.</li>
+      <li>All disputes subject to Navi Mumbai / Raigad jurisdiction.</li>
+      <li>This quotation is not a tax invoice; tax invoice will be raised separately under GST.</li>
+    </ol>
+  </div>
+
+  <div class="row">
+    <div class="col box">
+      <h3>C — Bank Details</h3>
+      <div class="small">Bank Name: ______________________________</div>
+      <div class="small" style="margin-top:8px;">A/c Name: Construction Minutes</div>
+      <div class="small" style="margin-top:8px;">A/c No: ________________________________</div>
+      <div class="small" style="margin-top:8px;">IFSC: __________________________________</div>
+      <div class="small" style="margin-top:8px;">Branch: ________________________________</div>
+    </div>
+    <div class="col box">
+      <h3>For Construction Minutes</h3>
+      <div class="small">Authorised Signatory:</div>
+      <div class="small"><strong>Ganesh Machhindra Patayit</strong></div>
+      <div class="sig"></div>
+      <div class="tiny">Signature & Stamp</div>
+      <h3 style="margin-top:14px;">Client Acceptance</h3>
+      <div class="small">Name: __________________________________</div>
+      <div class="small" style="margin-top:6px;">Sign: __________________________________</div>
+      <div class="small" style="margin-top:6px;">Date: __________________________________</div>
+      <div class="small" style="margin-top:6px;">Company Stamp: ________________________</div>
+    </div>
+  </div>
+
+  <p class="small" style="text-align:center;margin-top:18px;">Thank you for choosing Construction Minutes | Construction Equipments Company | Kalamboli, Navi Mumbai</p>
+  <div class="footer">Construction Minutes | Editable Quotation Template — Page 4 of 4</div>
+</section>
+
+</body>
+</html>
