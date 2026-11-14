@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && node scripts/site-build.mjs files && vite build && node scripts/site-build.mjs html",
+    "postinstall": "npm run build",
     "preview": "vite preview",
     "deploy": "npm run build && wrangler deploy"
   },
