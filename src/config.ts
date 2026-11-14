@@ -1,3 +1,5 @@
+/** Public site origin. Canonicals, Open Graph URLs, schema @id values, the sitemap and robots.txt are all built from this. */
+export const SITE = "https://therkenterprises.co.in";
 export const WHATSAPP_NUMBER = "918421213578";
 export const PHONE_E164 = "+918421213578";
 export const PHONE_DISPLAY = "+91 84212 13578";

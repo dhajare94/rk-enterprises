@@ -6,17 +6,18 @@ import Markdown from "../components/Markdown";
 import { BLOGS } from "../data/blogs";
 import { useSeo, SITE, faqLd, crumbs } from "../lib/seo";
 import { waLink } from "../config";
+import { photoAlt } from "../data/photos";
 
 export default function BlogPost() {
   const { slug } = useParams();
   const b = BLOGS.find(x => x.slug === slug);
   useSeo(b ? { title: b.seoTitle, description: b.metaDescription, path: `/blog/${b.slug}`, image: b.img, type: "article", graph: [
-    { "@type": "BlogPosting", headline: b.seoTitle, description: b.metaDescription, image: SITE + b.img, datePublished: b.date, mainEntityOfPage: `${SITE}/blog/${b.slug}`, author: { "@type": "Organization", name: "RK Enterprises", url: SITE }, publisher: { "@id": `${SITE}/#org`, "@type": "Organization", name: "RK Enterprises" } },
+    { "@type": "BlogPosting", headline: b.seoTitle, description: b.metaDescription, image: SITE + b.img, datePublished: b.date, dateModified: b.modified ?? b.date, mainEntityOfPage: `${SITE}/blog/${b.slug}`, author: { "@type": "Organization", name: "RK Enterprises", url: SITE }, publisher: { "@id": `${SITE}/#org`, "@type": "Organization", name: "RK Enterprises" } },
     crumbs([["Home", "/"], ["Blog", "/blog"], [b.title, `/blog/${b.slug}`]]), ...(b.faqs.length ? [faqLd(b.faqs)] : [])] } : null);
   if (!b) return <section className="sec nf"><div className="wrap"><h1 className="h-head">Article not found</h1><Link className="btn btn--k" to="/blog">All articles</Link></div></section>;
   const more = BLOGS.filter(x => x.slug !== b.slug).slice(0, 3);
   return (<>
-    <PageHero tone="k" img={b.img} title={b.title} alt="" aside={<p className="phero__lead">{fmt(b.date)} · {b.read} read</p>} />
+    <PageHero tone="k" img={b.img} title={b.title} alt={photoAlt(b.img)} aside={<p className="phero__lead">{fmt(b.date)} · {b.read} read</p>} />
     <article className="sec"><div className="wrap article">
       <div className="article__answer rv"><strong>Short answer</strong><p>{b.lead}</p></div>
       <Markdown src={b.body} />

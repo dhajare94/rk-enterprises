@@ -10,7 +10,7 @@ import ServicesRows from "../components/Services";
 export default function Services() {
   const P = PAGES.services;
   useSeo({ title: P.seoTitle, description: P.metaDescription, path: "/services", image: "/img-31637239.jpg", graph: [{ "@type": "CollectionPage", url: SITE + "/services", name: P.seoTitle },
-    { "@type": "ItemList", itemListElement: [["RSP Rental", "rsp-rental", "Construction equipment rental"], ["RSP Sale", "rsp-sale", "Construction equipment sale"]].map(([name, slug, serviceType], i) => ({ "@type": "ListItem", position: i + 1, item: { "@type": "Service", name, serviceType, url: `${SITE}/services/${slug}`, provider: { "@id": `${SITE}/#org` }, areaServed: AREAS } })) },
+    { "@type": "ItemList", itemListElement: [["RSP Rental", "rsp-rental", "Rope suspended platform rental"], ["RSP Sale", "rsp-sale", "Rope suspended platform sale"]].map(([name, slug, serviceType], i) => ({ "@type": "ListItem", position: i + 1, item: { "@type": "Service", name, serviceType, url: `${SITE}/services/${slug}`, provider: { "@id": `${SITE}/#org` }, areaServed: AREAS } })) },
     ORG, crumbs([["Home", "/"], ["Services", "/services"]]), faqLd(P.faqs)] });
   return (<>
     <PageHero img="/img-31637239.jpg" title={P.h1} alt="Construction plant on an RK Enterprises site" aside={<p className="phero__lead">{P.lead}</p>} />

@@ -1,16 +1,16 @@
 import PhotoBand from "../components/PhotoBand";
 import SeoBlock from "../components/SeoBlock";
 import { PAGES } from "../data/seo";
-import { PHONE_E164, ADDRESS_LINES, MAP_URL, POSTAL_ADDRESS, GEO_LD, TEL_URL, PHONE_DISPLAY } from "../config";
-import { useSeo, AREAS, SITE, faqLd, crumbs } from "../lib/seo";
+import { ADDRESS_LINES, MAP_URL, TEL_URL, PHONE_DISPLAY } from "../config";
+import { useSeo, LOCAL_BUSINESS, SITE, faqLd, crumbs } from "../lib/seo";
 import { Link } from "react-router-dom";
 import HireBoard from "../components/HireBoard";
 import ProjectGrid from "../components/ProjectGrid";
 import { PROJECTS } from "../data/projects";
 export default function Contact() {
   const P = PAGES.contact;
-  useSeo({ title: P.seoTitle, description: P.metaDescription, path: "/contact", graph: [{ "@type": "ContactPage", url: SITE + "/contact", name: P.seoTitle, about: { "@id": `${SITE}/#org` } },
-    { "@type": "LocalBusiness", "@id": `${SITE}/#business`, name: "RK Enterprises", url: SITE, telephone: PHONE_E164, address: POSTAL_ADDRESS, geo: GEO_LD, hasMap: MAP_URL, areaServed: AREAS }, crumbs([["Home", "/"], ["Contact", "/contact"]]), faqLd(P.faqs)] });
+  useSeo({ title: P.seoTitle, description: P.metaDescription, path: "/contact", image: "/about-platform.webp", graph: [{ "@type": "ContactPage", url: SITE + "/contact", name: P.seoTitle, about: { "@id": `${SITE}/#org` } },
+    { ...LOCAL_BUSINESS, image: SITE + "/about-platform.webp" }, crumbs([["Home", "/"], ["Contact", "/contact"]]), faqLd(P.faqs)] });
   return (<>
     <section className="contact field field--b">
       <div className="wrap contact__in">
