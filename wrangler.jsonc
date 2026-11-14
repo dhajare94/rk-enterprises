@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "rk-enterprises",
+  "name": "rk-enterprisess",
   "compatibility_date": "2026-10-26",
   "assets": {
     "html_handling": "drop-trailing-slash",
