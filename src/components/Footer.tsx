@@ -9,6 +9,6 @@ export default function Footer() {
       <div><p className="ftr__h">Line opens 5 a.m.</p><a href={TEL_URL}>{PHONE_DISPLAY}</a><a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">WhatsApp</a></div>
     </div>
     <div className="ftr__mark" aria-hidden="true"><svg viewBox="0 0 1000 150" preserveAspectRatio="xMinYMax meet"><text x="-6" y="132" textLength="1006" lengthAdjust="spacingAndGlyphs">RK Enterprises</text></svg></div>
-    <p className="ftr__legal">© {new Date().getFullYear()} RK Enterprises, Kalyan-Dombivli. Construction plant hire and sale.</p>
+    <p className="ftr__legal">© {new Date().getFullYear()} RK Enterprises, Kalyan-Dombivli. Rope suspended platforms and site plant, on hire and for sale.</p>
   </div></footer>;
 }

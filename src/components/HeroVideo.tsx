@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { photoAlt } from "../data/photos";
 const LOCAL = "/hero.mp4";
 const CDN = "https://videos.pexels.com/video-files/20678104/20678104-hd_1280_720_30fps.mp4";
 const IMGS = ["/about-platform.webp", "/img-33511139.jpg", "/site.jpg", "/img-29414416.jpg"];
@@ -24,6 +25,6 @@ export default function HeroVideo() {
   }, [k, reduced]);
   return <div className="hslides" aria-hidden="true">
     <video ref={ref} className={`hslide${k === 0 ? " is-on" : ""}`} autoPlay={!reduced} muted playsInline loop preload="auto" poster="/hero-poster.jpg" src={LOCAL} />
-    {IMGS.map((src, i) => <img key={src} src={src} alt="" className={`hslide${k === i + 1 ? " is-on" : ""}`} width={1600} height={1000} />)}
+    {IMGS.map((src, i) => <img key={src} src={src} alt={photoAlt(src)} className={`hslide${k === i + 1 ? " is-on" : ""}`} width={1600} height={1000} />)}
   </div>;
 }

@@ -4,14 +4,14 @@ export type SeoPage = { path: string; seoTitle: string; metaDescription: string;
 export const PAGES: Record<string, SeoPage> = {
  "home": {
   "path": "/",
-  "seoTitle": "RSP Rental & Sale in Mumbai & Navi Mumbai | RK Enterprises",
-  "metaDescription": "Dispatch-checked construction plant on hire or for sale across Mumbai, Navi Mumbai and Maharashtra. Day, week or month terms. Call or WhatsApp RK Enterprises.",
-  "h1": "Construction plant on hire and for sale — Mumbai, Navi Mumbai & Maharashtra",
-  "lead": "RK Enterprises rents and sells construction plant (RSP) to contractors across Mumbai, Navi Mumbai and Maharashtra. Every machine is checked before dispatch, hire terms run by the day, week or month, and our people stay on site until the work is moving. The phone is answered from 5 a.m. — call or WhatsApp with your site, dates and task.",
+  "seoTitle": "Rope Suspended Platform (RSP) on Rent & Sale | RK Enterprises",
+  "metaDescription": "Rope suspended platforms (gondolas / cradles) and site plant on hire or for sale across Mumbai, Navi Mumbai and Thane. Day, week or month. Call or WhatsApp RK Enterprises.",
+  "h1": "Rope suspended platforms (gondolas / cradles) on hire and for sale — Mumbai, Navi Mumbai and Thane",
+  "lead": "RK Enterprises rents and sells rope suspended platforms (gondolas / cradles) — also called RSP — and other site plant to contractors across Mumbai, Navi Mumbai and Maharashtra. Every machine is checked before dispatch, hire runs by the day, week or month, and the phone is answered from 5 a.m.",
   "faqs": [
    {
     "q": "What does RK Enterprises do?",
-    "a": "We rent and sell construction plant (RSP) and provide on-site support to contractors in Mumbai, Navi Mumbai and across Maharashtra."
+    "a": "We rent and sell rope suspended platforms (RSP, also called gondolas or cradles) and other site plant, and we provide on-site support to contractors in Mumbai, Navi Mumbai and across Maharashtra."
    },
    {
     "q": "Which areas do you cover?",
@@ -34,7 +34,7 @@ export const PAGES: Record<string, SeoPage> = {
     "a": "Call or WhatsApp us with the site location, dates and task. A site photo helps us match the right plant."
    }
   ],
-  "body": "## Plant that works when it arrives\nMachines are checked before dispatch. No surprises at the gate, no lost morning.\n\n## Rent, buy, or both\n- **[RSP Rental](/services/rsp-rental)** — day, week or month hire for peak phases, one-off tasks or when your own plant is down.\n- **[RSP Sale](/services/rsp-sale)** — the same class of equipment we run on our own sites, sold outright when owning makes more sense.\n- **Site support** — people who know the machine and stay until the job is moving.\n\n## Built by people who started on site at 14\nFounders Amit Kumar and Rajesh Kumar have worked on construction sites since they were fourteen. RK Enterprises has been running for about 4–5 years. [Read our story](/about).\n\n## Track record\n21 clients · 17 rental projects · 2 engagements still running. [See projects](/projects).\n\n## Where we work\nMumbai, Navi Mumbai, Thane, Vasai, Badlapur and sites across Maharashtra.\n\n## Talk to RK\nThe phone is picked up from 5 a.m. Call or WhatsApp with your site, dates and task. [Contact](/contact)"
+  "body": "## Plant that works when it arrives\nMachines are checked before dispatch. No surprises at the gate, no lost morning.\n\n## Rent, buy, or both\n- **[RSP Rental](/services/rsp-rental)** — rope suspended platforms (gondolas / cradles) and other site plant, by the day, week or month.\n- **[RSP Sale](/services/rsp-sale)** — the same platforms and plant, sold outright when owning makes more sense.\n- **Site support** — people who know the machine and stay until the job is moving.\n\n## Built by people who started on site at 14\nFounders Amit Kumar and Rajesh Kumar have worked on construction sites since they were fourteen. RK Enterprises has been running for about 4–5 years. [Read our story](/about).\n\n## Track record\n21 clients · 17 rental projects · 2 engagements still running. [See projects](/projects).\n\n## Where we work\nMumbai, Navi Mumbai, Thane, Vasai, Badlapur and sites across Maharashtra.\n\n## Talk to RK\nThe phone is picked up from 5 a.m. Call or WhatsApp with your site, dates and task. [Contact](/contact)"
  },
  "about": {
   "path": "/about",
@@ -68,14 +68,14 @@ export const PAGES: Record<string, SeoPage> = {
  },
  "services": {
   "path": "/services",
-  "seoTitle": "RSP Rental, Sale & Site Support | RK Enterprises Mumbai",
-  "metaDescription": "Construction plant on hire (day/week/month), equipment for sale, and on-site support for contractors in Mumbai, Navi Mumbai and Maharashtra.",
+  "seoTitle": "Rope Suspended Platform Rental, Sale & Support | RK",
+  "metaDescription": "Rope suspended platforms (gondolas / cradles) on hire by the day, week or month, for sale, and with on-site support. Mumbai, Navi Mumbai and Maharashtra.",
   "h1": "Rent it, buy it, or get us on site",
-  "lead": "RK Enterprises offers two core services — RSP Rental and RSP Sale — backed by on-site support. Rent plant by the day, week or month when a phase needs more than your own fleet can send; buy the same class of equipment when hire bills start to look like a loan payment. Either way, machines are dispatch-checked and our people stay until the work is moving.",
+  "lead": "RK Enterprises offers RSP Rental and RSP Sale for rope suspended platforms (gondolas / cradles) and other site plant, backed by on-site support. Rent a platform by the day, week or month when a phase needs more than your own fleet can send; buy the same class of equipment when hire bills start to look like a loan payment. Either way, machines are dispatch-checked and our people stay until the work is moving.",
   "faqs": [
    {
     "q": "What is the difference between RSP Rental and RSP Sale?",
-    "a": "Rental gives you plant for a set period — day, week or month. Sale means you own the equipment outright. Many clients hire first, then buy."
+    "a": "Rental gives you a rope suspended platform or other site plant for a set period — day, week or month. Sale means you own the equipment outright. Many clients hire first, then buy."
    },
    {
     "q": "Is site support included?",
@@ -94,14 +94,14 @@ export const PAGES: Record<string, SeoPage> = {
     "a": "Call or WhatsApp with the site, dates and task."
    }
   ],
-  "body": "## RSP Rental\nFor peak phases, one-off tasks, or when your own plant is down. Day, week or month terms. Pre-dispatch inspection, delivery coordination, on-site handover, breakdown response. [RSP Rental →](/services/rsp-rental)\n\n## RSP Sale\nFor steady pipelines and contractors building their own fleet. Hire-vs-buy comparison, proven RK stock, inspection report before handover, phased purchases, after-sale contact. [RSP Sale →](/services/rsp-sale)\n\n## Site support\nPeople who know the machine, on site at handover and until the job is moving. Not a delivery-and-disappear service.\n\n## How it works\n1. Tell us the job (site, dates, task — a photo helps).\n2. We match the plant and term.\n3. Check and dispatch on the agreed slot.\n4. Support until it moves."
+  "body": "## RSP Rental\nRope suspended platforms (gondolas / cradles) and other site plant for peak phases, one-off tasks, or when your own plant is down. Day, week or month terms. Pre-dispatch inspection, delivery coordination, on-site handover, breakdown response. [RSP Rental →](/services/rsp-rental)\n\n## RSP Sale\nFor steady pipelines and contractors building their own fleet. Hire-vs-buy comparison, proven RK stock, inspection report before handover, phased purchases, after-sale contact. [RSP Sale →](/services/rsp-sale)\n\n## Site support\nPeople who know the machine, on site at handover and until the job is moving. Not a delivery-and-disappear service.\n\n## How it works\n1. Tell us the job (site, dates, task — a photo helps).\n2. We match the plant and term.\n3. Check and dispatch on the agreed slot.\n4. Support until it moves."
  },
  "rsp-rental": {
   "path": "/services/rsp-rental",
-  "seoTitle": "Construction Equipment on Hire in Mumbai | RSP Rental – RK",
-  "metaDescription": "Hire inspected construction plant by the day, week or month in Mumbai, Navi Mumbai and Maharashtra. Delivery often in 24–72 hrs. Call or WhatsApp.",
-  "h1": "RSP Rental — plant on hire for the days the job needs more",
-  "lead": "RSP Rental is RK Enterprises' construction plant hire service for Mumbai, Navi Mumbai and Maharashtra. You hire by the day, week or month; we check the machine before dispatch, deliver on the agreed slot (often within 24–72 hours for standard plant) and stay until the work is moving. If a machine breaks down, we repair it on site or swap it.",
+  "seoTitle": "Rope Suspended Platform (RSP) on Rent in Mumbai & Thane | RK",
+  "metaDescription": "Hire a rope suspended platform (gondola / cradle) by the day, week or month in Mumbai, Navi Mumbai and Thane. Checked before dispatch. Call or WhatsApp RK Enterprises.",
+  "h1": "Rope suspended platform (gondola / cradle) on hire",
+  "lead": "RSP Rental is RK Enterprises' rope suspended platform (gondola / cradle) hire service for Mumbai, Navi Mumbai, Thane and the rest of Maharashtra. You hire by the day, week or month; we check the machine before dispatch, deliver on the agreed slot (often within 24–72 hours for standard plant) and stay until the work is moving. If a machine breaks down, we repair it on site or swap it.",
   "faqs": [
    {
     "q": "How fast can you deliver?",
@@ -132,10 +132,10 @@ export const PAGES: Record<string, SeoPage> = {
  },
  "rsp-sale": {
   "path": "/services/rsp-sale",
-  "seoTitle": "Construction Equipment for Sale in Mumbai | RSP Sale – RK",
-  "metaDescription": "Buy the same class of construction plant RK runs on its own sites. Honest hire-vs-buy advice, inspection before handover, phased purchase options.",
-  "h1": "RSP Sale — own the plant when your firm should",
-  "lead": "RSP Sale is for contractors whose hire bills have started to look like a loan payment. RK Enterprises sells the same class of equipment we trust on our own sites, gives you an honest hire-vs-buy comparison first, inspects each machine before handover and keeps answering the phone after the sale. Phased purchases are possible to protect cashflow.",
+  "seoTitle": "Rope Suspended Platform for Sale – Mumbai | RK Enterprises",
+  "metaDescription": "Buy a rope suspended platform (gondola / cradle) from the stock RK Enterprises uses on its own sites. Honest hire-vs-buy advice and an inspection before handover.",
+  "h1": "Rope suspended platform (gondola / cradle) for sale",
+  "lead": "RSP Sale is for contractors who want to own a rope suspended platform (gondola / cradle) rather than keep hiring one. RK Enterprises sells the same class of equipment we trust on our own sites, gives you an honest hire-vs-buy comparison first, inspects each machine before handover and keeps answering the phone after the sale. Phased purchases are possible to protect cashflow.",
   "faqs": [
    {
     "q": "Do you sell new or used equipment?",
@@ -233,11 +233,11 @@ export const PROJECT_SEO: Record<string, SeoPage> = {
   "seoTitle": "Sentax – Ram Mandir, Mumbai | Plant Rental by RK Enterprises",
   "metaDescription": "RK Enterprises supplied dispatch-checked construction plant on rental to Sentax for Ram Mandir in Mumbai. Hire plant in Mumbai — call or WhatsApp.",
   "h1": "Sentax — Ram Mandir, Mumbai",
-  "lead": "RK Enterprises supplied construction plant on rental (RSP Rental) to Sentax for Ram Mandir in Mumbai. Machines were checked before dispatch. If you are running a site in or near Mumbai, call or WhatsApp us with the dates and task.",
+  "lead": "RK Enterprises supplied equipment on hire through RSP rental (rope suspended platforms and other site plant) to Sentax for Ram Mandir in Mumbai. Machines were checked before dispatch. If you are running a site in or near Mumbai, call or WhatsApp us with the dates and task.",
   "faqs": [
    {
     "q": "What did RK Enterprises provide for Sentax?",
-    "a": "Construction plant on rental (RSP Rental) for Ram Mandir, Mumbai."
+    "a": "RSP rental (rope suspended platforms and other site plant) for Ram Mandir, Mumbai."
    },
    {
     "q": "Does RK Enterprises supply plant in Mumbai?",
@@ -255,11 +255,11 @@ export const PROJECT_SEO: Record<string, SeoPage> = {
   "seoTitle": "Pranjal Enterprises – Adani, Andheri | Plant Rental by RK Enterprises",
   "metaDescription": "RK Enterprises supplied dispatch-checked construction plant on rental to Pranjal Enterprises for Adani in Andheri, Mumbai. Hire plant in Andheri — call or WhatsApp.",
   "h1": "Pranjal Enterprises — Adani, Andheri, Mumbai",
-  "lead": "RK Enterprises supplied construction plant on rental (RSP Rental) to Pranjal Enterprises for Adani in Andheri, Mumbai. Machines were checked before dispatch. If you are running a site in or near Andheri, call or WhatsApp us with the dates and task.",
+  "lead": "RK Enterprises supplied equipment on hire through RSP rental (rope suspended platforms and other site plant) to Pranjal Enterprises for Adani in Andheri, Mumbai. Machines were checked before dispatch. If you are running a site in or near Andheri, call or WhatsApp us with the dates and task.",
   "faqs": [
    {
     "q": "What did RK Enterprises provide for Pranjal Enterprises?",
-    "a": "Construction plant on rental (RSP Rental) for Adani, Andheri, Mumbai."
+    "a": "RSP rental (rope suspended platforms and other site plant) for Adani, Andheri, Mumbai."
    },
    {
     "q": "Does RK Enterprises supply plant in Andheri?",
@@ -277,11 +277,11 @@ export const PROJECT_SEO: Record<string, SeoPage> = {
   "seoTitle": "SN Enterprises – MICL, Ghatkopar | Plant Rental by RK Enterprises",
   "metaDescription": "RK Enterprises supplied dispatch-checked construction plant on rental to SN Enterprises for MICL in Ghatkopar, Mumbai. Hire plant in Ghatkopar — call or WhatsApp.",
   "h1": "SN Enterprises — MICL, Ghatkopar, Mumbai",
-  "lead": "RK Enterprises supplied construction plant on rental (RSP Rental) to SN Enterprises for MICL in Ghatkopar, Mumbai. Machines were checked before dispatch. If you are running a site in or near Ghatkopar, call or WhatsApp us with the dates and task.",
+  "lead": "RK Enterprises supplied equipment on hire through RSP rental (rope suspended platforms and other site plant) to SN Enterprises for MICL in Ghatkopar, Mumbai. Machines were checked before dispatch. If you are running a site in or near Ghatkopar, call or WhatsApp us with the dates and task.",
   "faqs": [
    {
     "q": "What did RK Enterprises provide for SN Enterprises?",
-    "a": "Construction plant on rental (RSP Rental) for MICL, Ghatkopar, Mumbai."
+    "a": "RSP rental (rope suspended platforms and other site plant) for MICL, Ghatkopar, Mumbai."
    },
    {
     "q": "Does RK Enterprises supply plant in Ghatkopar?",
@@ -299,11 +299,11 @@ export const PROJECT_SEO: Record<string, SeoPage> = {
   "seoTitle": "Yogesh Enterprises – Kalpataru, Andheri | Plant Rental by RK Enterprises",
   "metaDescription": "RK Enterprises supplied dispatch-checked construction plant on rental to Yogesh Enterprises for Kalpataru in Andheri, Mumbai. Hire plant in Andheri — call or WhatsApp.",
   "h1": "Yogesh Enterprises — Kalpataru, Andheri, Mumbai",
-  "lead": "RK Enterprises supplied construction plant on rental (RSP Rental) to Yogesh Enterprises for Kalpataru in Andheri, Mumbai. Machines were checked before dispatch. If you are running a site in or near Andheri, call or WhatsApp us with the dates and task.",
+  "lead": "RK Enterprises supplied equipment on hire through RSP rental (rope suspended platforms and other site plant) to Yogesh Enterprises for Kalpataru in Andheri, Mumbai. Machines were checked before dispatch. If you are running a site in or near Andheri, call or WhatsApp us with the dates and task.",
   "faqs": [
    {
     "q": "What did RK Enterprises provide for Yogesh Enterprises?",
-    "a": "Construction plant on rental (RSP Rental) for Kalpataru, Andheri, Mumbai."
+    "a": "RSP rental (rope suspended platforms and other site plant) for Kalpataru, Andheri, Mumbai."
    },
    {
     "q": "Does RK Enterprises supply plant in Andheri?",
@@ -321,11 +321,11 @@ export const PROJECT_SEO: Record<string, SeoPage> = {
   "seoTitle": "Magicrest – Suraksha Smart City, Vasai East | Plant Rental by RK Enterprises",
   "metaDescription": "RK Enterprises supplied dispatch-checked construction plant on rental to Magicrest for Suraksha Smart City in Station Road, Rajavali, Vasai East, Maharashtra. Hire plant in Vasai East — call or WhatsApp.",
   "h1": "Magicrest — Suraksha Smart City, Station Road, Rajavali, Vasai East, Maharashtra",
-  "lead": "RK Enterprises supplied construction plant on rental (RSP Rental) to Magicrest for Suraksha Smart City in Station Road, Rajavali, Vasai East, Maharashtra. Machines were checked before dispatch. If you are running a site in or near Vasai East, call or WhatsApp us with the dates and task.",
+  "lead": "RK Enterprises supplied equipment on hire through RSP rental (rope suspended platforms and other site plant) to Magicrest for Suraksha Smart City in Station Road, Rajavali, Vasai East, Maharashtra. Machines were checked before dispatch. If you are running a site in or near Vasai East, call or WhatsApp us with the dates and task.",
   "faqs": [
    {
     "q": "What did RK Enterprises provide for Magicrest?",
-    "a": "Construction plant on rental (RSP Rental) for Suraksha Smart City, Station Road, Rajavali, Vasai East, Maharashtra."
+    "a": "RSP rental (rope suspended platforms and other site plant) for Suraksha Smart City, Station Road, Rajavali, Vasai East, Maharashtra."
    },
    {
     "q": "Does RK Enterprises supply plant in Vasai East?",
@@ -343,11 +343,11 @@ export const PROJECT_SEO: Record<string, SeoPage> = {
   "seoTitle": "Glazium Facades Pvt. Ltd. – Kalpataru & Panchshil, Airoli | Plant Rental by RK Enterprises",
   "metaDescription": "RK Enterprises supplied dispatch-checked construction plant on rental to Glazium Facades Pvt. Ltd. for Kalpataru & Panchshil in Rabale / Airoli, Navi Mumbai. Hire plant in Airoli — call or WhatsApp.",
   "h1": "Glazium Facades Pvt. Ltd. — Kalpataru & Panchshil, Rabale / Airoli, Navi Mumbai",
-  "lead": "RK Enterprises supplied construction plant on rental (RSP Rental) to Glazium Facades Pvt. Ltd. for Kalpataru & Panchshil in Rabale / Airoli, Navi Mumbai. Machines were checked before dispatch. If you are running a site in or near Airoli, call or WhatsApp us with the dates and task.",
+  "lead": "RK Enterprises supplied equipment on hire through RSP rental (rope suspended platforms and other site plant) to Glazium Facades Pvt. Ltd. for Kalpataru & Panchshil in Rabale / Airoli, Navi Mumbai. Machines were checked before dispatch. If you are running a site in or near Airoli, call or WhatsApp us with the dates and task.",
   "faqs": [
    {
     "q": "What did RK Enterprises provide for Glazium Facades Pvt. Ltd.?",
-    "a": "Construction plant on rental (RSP Rental) for Kalpataru & Panchshil, Rabale / Airoli, Navi Mumbai."
+    "a": "RSP rental (rope suspended platforms and other site plant) for Kalpataru & Panchshil, Rabale / Airoli, Navi Mumbai."
    },
    {
     "q": "Does RK Enterprises supply plant in Airoli?",
@@ -365,11 +365,11 @@ export const PROJECT_SEO: Record<string, SeoPage> = {
   "seoTitle": "Bhargavi – Delta, Ulwe | Plant Rental by RK Enterprises",
   "metaDescription": "RK Enterprises supplied dispatch-checked construction plant on rental to Bhargavi for Delta in Ulwe, Navi Mumbai. Hire plant in Ulwe — call or WhatsApp.",
   "h1": "Bhargavi — Delta, Ulwe, Navi Mumbai",
-  "lead": "RK Enterprises supplied construction plant on rental (RSP Rental) to Bhargavi for Delta in Ulwe, Navi Mumbai. Machines were checked before dispatch. If you are running a site in or near Ulwe, call or WhatsApp us with the dates and task.",
+  "lead": "RK Enterprises supplied equipment on hire through RSP rental (rope suspended platforms and other site plant) to Bhargavi for Delta in Ulwe, Navi Mumbai. Machines were checked before dispatch. If you are running a site in or near Ulwe, call or WhatsApp us with the dates and task.",
   "faqs": [
    {
     "q": "What did RK Enterprises provide for Bhargavi?",
-    "a": "Construction plant on rental (RSP Rental) for Delta, Ulwe, Navi Mumbai."
+    "a": "RSP rental (rope suspended platforms and other site plant) for Delta, Ulwe, Navi Mumbai."
    },
    {
     "q": "Does RK Enterprises supply plant in Ulwe?",
@@ -405,11 +405,11 @@ export const PROJECT_SEO: Record<string, SeoPage> = {
   "seoTitle": "Hariom Enterprises – Local Building, Badlapur | Plant Rental by RK Enterprises",
   "metaDescription": "RK Enterprises supplied dispatch-checked construction plant on rental to Hariom Enterprises for Local Building in Badlapur, Maharashtra. Hire plant in Badlapur — call or WhatsApp.",
   "h1": "Hariom Enterprises — Local Building, Badlapur, Maharashtra",
-  "lead": "RK Enterprises supplied construction plant on rental (RSP Rental) to Hariom Enterprises for Local Building in Badlapur, Maharashtra. Machines were checked before dispatch. If you are running a site in or near Badlapur, call or WhatsApp us with the dates and task.",
+  "lead": "RK Enterprises supplied equipment on hire through RSP rental (rope suspended platforms and other site plant) to Hariom Enterprises for Local Building in Badlapur, Maharashtra. Machines were checked before dispatch. If you are running a site in or near Badlapur, call or WhatsApp us with the dates and task.",
   "faqs": [
    {
     "q": "What did RK Enterprises provide for Hariom Enterprises?",
-    "a": "Construction plant on rental (RSP Rental) for Local Building, Badlapur, Maharashtra."
+    "a": "RSP rental (rope suspended platforms and other site plant) for Local Building, Badlapur, Maharashtra."
    },
    {
     "q": "Does RK Enterprises supply plant in Badlapur?",
@@ -427,11 +427,11 @@ export const PROJECT_SEO: Record<string, SeoPage> = {
   "seoTitle": "Zircone Home – Ashar, Thane | Plant Rental by RK Enterprises",
   "metaDescription": "RK Enterprises supplied dispatch-checked construction plant on rental to Zircone Home for Ashar in Thane, Maharashtra. Hire plant in Thane — call or WhatsApp.",
   "h1": "Zircone Home — Ashar, Thane, Maharashtra",
-  "lead": "RK Enterprises supplied construction plant on rental (RSP Rental) to Zircone Home for Ashar in Thane, Maharashtra. Machines were checked before dispatch. If you are running a site in or near Thane, call or WhatsApp us with the dates and task.",
+  "lead": "RK Enterprises supplied equipment on hire through RSP rental (rope suspended platforms and other site plant) to Zircone Home for Ashar in Thane, Maharashtra. Machines were checked before dispatch. If you are running a site in or near Thane, call or WhatsApp us with the dates and task.",
   "faqs": [
    {
     "q": "What did RK Enterprises provide for Zircone Home?",
-    "a": "Construction plant on rental (RSP Rental) for Ashar, Thane, Maharashtra."
+    "a": "RSP rental (rope suspended platforms and other site plant) for Ashar, Thane, Maharashtra."
    },
    {
     "q": "Does RK Enterprises supply plant in Thane?",
@@ -449,11 +449,11 @@ export const PROJECT_SEO: Record<string, SeoPage> = {
   "seoTitle": "MS Safety Net Works – Shubham Building, Charni Road | Plant Rental by RK Enterprises",
   "metaDescription": "RK Enterprises supplied dispatch-checked construction plant on rental to MS Safety Net Works for Shubham Building in Charni Road, Mumbai. Hire plant in Charni Road — call or WhatsApp.",
   "h1": "MS Safety Net Works — Shubham Building, Charni Road, Mumbai",
-  "lead": "RK Enterprises supplied construction plant on rental (RSP Rental) to MS Safety Net Works for Shubham Building in Charni Road, Mumbai. Machines were checked before dispatch. If you are running a site in or near Charni Road, call or WhatsApp us with the dates and task.",
+  "lead": "RK Enterprises supplied equipment on hire through RSP rental (rope suspended platforms and other site plant) to MS Safety Net Works for Shubham Building in Charni Road, Mumbai. Machines were checked before dispatch. If you are running a site in or near Charni Road, call or WhatsApp us with the dates and task.",
   "faqs": [
    {
     "q": "What did RK Enterprises provide for MS Safety Net Works?",
-    "a": "Construction plant on rental (RSP Rental) for Shubham Building, Charni Road, Mumbai."
+    "a": "RSP rental (rope suspended platforms and other site plant) for Shubham Building, Charni Road, Mumbai."
    },
    {
     "q": "Does RK Enterprises supply plant in Charni Road?",
@@ -471,11 +471,11 @@ export const PROJECT_SEO: Record<string, SeoPage> = {
   "seoTitle": "Excel Precast Solutions Pvt. Ltd. – Suraksha Smart City, Vasai East | Plant Rental by RK Enterprises",
   "metaDescription": "RK Enterprises supplied dispatch-checked construction plant on rental to Excel Precast Solutions Pvt. Ltd. for Suraksha Smart City in Station Road, Rajavali, Vasai East, Maharashtra. Hire plant in Vasai East — call or WhatsApp.",
   "h1": "Excel Precast Solutions Pvt. Ltd. — Suraksha Smart City, Station Road, Rajavali, Vasai East, Maharashtra",
-  "lead": "RK Enterprises supplied construction plant on rental (RSP Rental) to Excel Precast Solutions Pvt. Ltd. for Suraksha Smart City in Station Road, Rajavali, Vasai East, Maharashtra. Machines were checked before dispatch. If you are running a site in or near Vasai East, call or WhatsApp us with the dates and task.",
+  "lead": "RK Enterprises supplied equipment on hire through RSP rental (rope suspended platforms and other site plant) to Excel Precast Solutions Pvt. Ltd. for Suraksha Smart City in Station Road, Rajavali, Vasai East, Maharashtra. Machines were checked before dispatch. If you are running a site in or near Vasai East, call or WhatsApp us with the dates and task.",
   "faqs": [
    {
     "q": "What did RK Enterprises provide for Excel Precast Solutions Pvt. Ltd.?",
-    "a": "Construction plant on rental (RSP Rental) for Suraksha Smart City, Station Road, Rajavali, Vasai East, Maharashtra."
+    "a": "RSP rental (rope suspended platforms and other site plant) for Suraksha Smart City, Station Road, Rajavali, Vasai East, Maharashtra."
    },
    {
     "q": "Does RK Enterprises supply plant in Vasai East?",
@@ -493,11 +493,11 @@ export const PROJECT_SEO: Record<string, SeoPage> = {
   "seoTitle": "Shri Glaze Enterprises – Juhu site, Juhu | Plant Rental by RK Enterprises",
   "metaDescription": "RK Enterprises supplied dispatch-checked construction plant on rental to Shri Glaze Enterprises for Juhu site in Juhu, Mumbai. Hire plant in Juhu — call or WhatsApp.",
   "h1": "Shri Glaze Enterprises — Juhu site, Juhu, Mumbai",
-  "lead": "RK Enterprises supplied construction plant on rental (RSP Rental) to Shri Glaze Enterprises for Juhu site in Juhu, Mumbai. Machines were checked before dispatch. If you are running a site in or near Juhu, call or WhatsApp us with the dates and task.",
+  "lead": "RK Enterprises supplied equipment on hire through RSP rental (rope suspended platforms and other site plant) to Shri Glaze Enterprises for Juhu site in Juhu, Mumbai. Machines were checked before dispatch. If you are running a site in or near Juhu, call or WhatsApp us with the dates and task.",
   "faqs": [
    {
     "q": "What did RK Enterprises provide for Shri Glaze Enterprises?",
-    "a": "Construction plant on rental (RSP Rental) for Juhu site, Juhu, Mumbai."
+    "a": "RSP rental (rope suspended platforms and other site plant) for Juhu site, Juhu, Mumbai."
    },
    {
     "q": "Does RK Enterprises supply plant in Juhu?",
@@ -515,11 +515,11 @@ export const PROJECT_SEO: Record<string, SeoPage> = {
   "seoTitle": "Soham Project – Worli site, Worli | Plant Rental by RK Enterprises",
   "metaDescription": "RK Enterprises supplied dispatch-checked construction plant on rental to Soham Project for Worli site in Worli, Mumbai. Hire plant in Worli — call or WhatsApp.",
   "h1": "Soham Project — Worli site, Worli, Mumbai",
-  "lead": "RK Enterprises supplied construction plant on rental (RSP Rental) to Soham Project for Worli site in Worli, Mumbai. Machines were checked before dispatch. If you are running a site in or near Worli, call or WhatsApp us with the dates and task.",
+  "lead": "RK Enterprises supplied equipment on hire through RSP rental (rope suspended platforms and other site plant) to Soham Project for Worli site in Worli, Mumbai. Machines were checked before dispatch. If you are running a site in or near Worli, call or WhatsApp us with the dates and task.",
   "faqs": [
    {
     "q": "What did RK Enterprises provide for Soham Project?",
-    "a": "Construction plant on rental (RSP Rental) for Worli site, Worli, Mumbai."
+    "a": "RSP rental (rope suspended platforms and other site plant) for Worli site, Worli, Mumbai."
    },
    {
     "q": "Does RK Enterprises supply plant in Worli?",

@@ -2,6 +2,9 @@ import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { PROJECTS } from "../data/projects";
 const MS = 5500;
+const titleCount = new Map<string, number>();
+for (const p of PROJECTS) titleCount.set(p.title, (titleCount.get(p.title) ?? 0) + 1);
+const slideTitle = (p: { title: string; clientName: string }) => (titleCount.get(p.title) ?? 0) > 1 ? `${p.title} — ${p.clientName}` : p.title;
 type Props = { title?: string; copy?: string; link?: boolean };
 export default function ProjectSlider({ title = "Platforms we have hung", copy, link = true }: Props) {
   const [k, setK] = useState(0);
@@ -26,7 +29,7 @@ export default function ProjectSlider({ title = "Platforms we have hung", copy, 
       {PROJECTS.map((p, i) => <div key={p.slug} className="pslide" aria-hidden={i !== k} role="group" aria-label={`${i + 1} of ${n}`}>
         <div className="pslide__img"><img src={p.img} alt={`${p.clientName} site`} loading="lazy" width={1200} height={800} /></div>
         <div className="pslide__info">
-          <h3>{p.title}</h3>
+          <h3>{slideTitle(p)}</h3>
           <p className="pslide__c">{p.clientName}</p>
           <dl>
             <div><dt>Location</dt><dd>{p.location}</dd></div>

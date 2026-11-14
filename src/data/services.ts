@@ -2,8 +2,8 @@ export type Service = { slug: string; name: string; img: string; img2: string; s
   gets: { h: string; p: string }[]; when: string[]; };
 export const SERVICES: Service[] = [
   { slug: "rsp-rental", name: "RSP Rental", img: "/img-29414416.jpg", img2: "/img-31637239.jpg",
-    short: "Plant and support on hire, for the days the job needs more than your own fleet can send.",
-    lead: "When the pour is booked and the crane has to be there at dawn, hire direct from people who have stood on those sites since they were fourteen.",
+    short: "Rope suspended platforms (gondolas / cradles) and other site plant on hire, for the days the job needs more than your own fleet can send.",
+    lead: "When the job needs a rope suspended platform (gondola / cradle), hire direct from people who have stood on those sites since they were fourteen.",
     gets: [
       { h: "Ready equipment", p: "Plant checked before it is dispatched, so it works when it arrives." },
       { h: "On-site support", p: "People who know the machine and stay until the job is moving." },
@@ -11,8 +11,8 @@ export const SERVICES: Service[] = [
     ],
     when: ["A peak phase needs more machines than you own", "A one-off task needs equipment you rarely use", "Your own plant is down and the schedule cannot wait", "You want to try a class of equipment before buying"] },
   { slug: "rsp-sale", name: "RSP Sale", img: "/img-33511139.jpg", img2: "/img-31637239.jpg",
-    short: "The same class of equipment, sold outright when your firm should own it.",
-    lead: "When hire bills start to look like a loan payment, it is time to own. We sell the equipment we trust on our own sites.",
+    short: "A rope suspended platform (gondola / cradle), sold outright when your firm should own it.",
+    lead: "When hire bills for a rope suspended platform start to look like a loan payment, it is time to own. We sell the equipment we trust on our own sites.",
     gets: [
       { h: "Proven equipment", p: "The same class of plant we run on our own jobs, not stock we have never used." },
       { h: "Straight advice", p: "We will tell you honestly whether buying or hiring makes more sense." },

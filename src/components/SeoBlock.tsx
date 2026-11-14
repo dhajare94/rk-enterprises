@@ -1,5 +1,6 @@
 import Markdown from "./Markdown";
 import type { SeoFaq } from "../data/seo";
+import { photoAlt } from "../data/photos";
 /** Wide heading, questions indented under it. Native exclusive <details>. */
 export function FaqList({ faqs, title = "Straight answers", tone = "w" }: { faqs: SeoFaq[]; title?: string; tone?: "w" | "c" }) {
   if (!faqs.length) return null;
@@ -12,7 +13,7 @@ export function FaqList({ faqs, title = "Straight answers", tone = "w" }: { faqs
 export default function SeoBlock({ body, faqs, kicker = "Good to know", canvas, img = "/img-14100101.jpg" }: { body?: string; faqs: SeoFaq[]; kicker?: string; canvas?: boolean; img?: string }) {
   return <>
     {body ? <section className={`sec copy${canvas ? " copy--c" : ""}`}><div className="wrap copy__in">
-      <div className="copy__side"><h2 className="h-head rv">{kicker}</h2><img className="rv" src={img} alt="RK Enterprises plant on site" loading="lazy" width={800} height={1000} /></div>
+      <div className="copy__side"><h2 className="h-head rv">{kicker}</h2><img className="rv" src={img} alt={photoAlt(img)} loading="lazy" width={800} height={1000} /></div>
       <div className="article rv"><Markdown src={body} /></div>
     </div></section> : null}
     <FaqList faqs={faqs} tone={canvas ? "w" : "c"} />

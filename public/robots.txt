@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://rk-enterprises.dhajare94.workers.dev/sitemap.xml
+Sitemap: https://therkenterprises.co.in/sitemap.xml

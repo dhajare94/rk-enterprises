@@ -16,7 +16,7 @@ export default function ServiceDetail() {
   const s = SERVICES.find(x => x.slug === slug);
   const P = s ? PAGES[s.slug] : undefined;
   useSeo(s && P ? { title: P.seoTitle, description: P.metaDescription, path: `/services/${s.slug}`, image: s.img, graph: [
-    { "@type": "Service", name: s.name, serviceType: s.slug === "rsp-rental" ? "Construction equipment rental" : "Construction equipment sale", url: `${SITE}/services/${s.slug}`, description: P.lead, provider: { "@id": `${SITE}/#org` }, areaServed: AREAS },
+    { "@type": "Service", name: s.name, serviceType: s.slug === "rsp-rental" ? "Rope suspended platform rental" : "Rope suspended platform sale", url: `${SITE}/services/${s.slug}`, description: P.lead, provider: { "@id": `${SITE}/#org` }, areaServed: AREAS },
     { "@type": "HowTo", name: P.h1, step: (EXTRA[s.slug]?.steps ?? []).map((st, i) => ({ "@type": "HowToStep", position: i + 1, name: st.h, text: st.p })) },
     ORG, crumbs([["Home", "/"], ["Services", "/services"], [s.name, `/services/${s.slug}`]]), faqLd(EXTRA[s.slug]?.faqs ?? P.faqs)] } : null);
   if (!s) return <section className="sec nf"><div className="wrap"><h1 className="h-head">Service not found</h1><Link className="btn btn--k" to="/services">All services</Link></div></section>;
